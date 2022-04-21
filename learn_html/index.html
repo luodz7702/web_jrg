@@ -1,0 +1,184 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>learn_html</title>
+  <style>
+    table {
+      width:400px;
+      border:1px solid red;
+      border-collapse:collapse;
+    }
+    td,th {
+      border:1px solid black;
+    }
+    th{
+      background-color: blueviolet;
+    }
+    .pink{
+      background: pink;
+    }
+    .yellow{
+      background: yellow;
+    }
+  </style>
+</head>
+<body>
+  <header>
+    <h1>my resume</h1>
+  </header>
+  <main>
+    <section>
+      <h2>教育经历</h2>
+      <p contenteditable>我从XXX学校毕业。。。</p>
+      <h2>工作经历</h2>
+    </section>
+    <hr>
+    <section>
+      <h2>有序列表</h2>
+      <iframe src="" frameborder="0"></iframe>
+      <ol>
+        
+        <li>起床</li>
+        <li>刷牙</li>
+        <li>吃饭</li>
+      </ol>
+    </section>
+    <hr>
+    <section>
+      <h2>无序列表</h2>
+      <ul>
+        <li>首页</li>
+        <li>课程</li>
+        <li>关于</li>
+      </ul>
+    </section>
+    <hr>
+    <div>
+      <h2>块元素中的自定义列表</h2>
+      <dl>
+        <dt>服装</dt>
+        <dd>上衣</dd>
+        <dd>裤子</dd>
+        <dd>内衣</dd>
+        <dt>食品</dt>
+        <dd>牛奶</dd>
+        <dd>面包</dd>
+        <dd>火腿</dd>
+      </dl>
+    </div>
+    <hr>
+    <section>
+      <h2>pre & code</h2>
+      <pre>
+        <code>
+          &lt;div&gt;
+          &lt;div&gt;hello&lt;/div&gt;
+          &lt;/div&gt;
+        </code>
+      </pre>
+    </section>
+    <section>
+      <h2>table(表示一个表格）</h2>
+      <table>
+        <caption>这是一个学生信息表</caption>
+        <colgroup>
+          <col>
+          <col span="2" class="pink">
+          <col span="2" class="yellow">
+        </colgroup>
+        <thead>
+          <tr>
+            <th>姓名</th>
+            <th>年龄</th>
+            <th>性别</th>
+            <th>身高</th>
+            <th>体重</th>
+
+          </tr>
+        </thead>
+        <tbody>
+          <tr>
+            <td>Jack</td>
+            <td>20</td>
+            <td>男</td>
+            <td>177</td>
+            <td>120</td>
+
+          </tr>
+          <tr>
+            <td>爱丽丝</td>
+            <td>22</td>
+            <td>女</td>
+            <td>168</td>
+            <td>95</td>
+          </tr>
+          <tr>
+            <td>薇薇安</td>
+            <td>21</td>
+            <td>女</td>
+            <td>170</td>
+            <td>100</td>
+          </tr>
+        </tbody>
+        <tfoot>
+          <tr>
+            <td colspan="5"> 这里是表格的尾部</td>
+          </tr>
+        </tfoot>
+
+
+      </table>
+    </section>
+    <hr>
+    <section>
+      <form action="" method="get">
+        <label for="username">用户名：</label>
+        <input id="username" name="username" placeholder="username" type="text">label标签<br>
+        <input name="sex" placeholder="gender" disabled type="text" value="man">placeholder & disabled参数<br>
+        <input name="age" placeholder="age" type="text" required>text & required参数<br>
+        <input name="csrf" type="hidden" value="qejfl;adsjfk;ladjf">hidden参数<br>
+        <input type="button" value="button按钮">button参数<br>
+        <input type="reset" value="reset按钮">reset参数<br>
+        <input name="email" type="email" placeholder="输入一个邮箱">email参数<br>
+        <input name="file" type="file" >file参数<br>
+        <input name="number" type="number" placeholder="输入任意数字">number参数 <br>
+        <input name="search" type="search" placeholder="search参数">search参数<br>
+        <input name="tel" placeholder="tel" type="tel">tel参数<br>
+        <input name="date"  type="date">date参数<br>
+        <input name="range"  type="range">range参数<br>
+        <input name="url"  type="url">url参数<br>
+        <input name="time"  type="time">time参数<br>
+        <input name="time"  type="time">time参数<br>
+        <textarea name="comment" cols="30" rows="10" placeholder="评论区">初输入始值的位置</textarea>textarea标签<br>
+        <select name="city" id="" >
+          <option value="beijing">北京</option>
+          <option value="shanghai">上海</option>
+          <option value="shenzhen" selected>深圳</option>
+        </select>select-option标签,可选择内容的输入框
+        <input type="submit" value="commit">submit参数<br>
+      </form>
+    </section>
+  </main>
+  <footer>
+    <br>
+    <br>
+    <br>
+    <br>
+    <br>
+    <br>
+    <br>
+    <br>
+    <br>
+    <br>
+    <br>
+    <br>
+    <br>
+    <br>
+    <br>
+    版权信息
+  </footer>
+</body>
+</html>

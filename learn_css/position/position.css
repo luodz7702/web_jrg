@@ -1,0 +1,39 @@
+/*设置border，margin*/
+.box,.box1,.box2 {
+  border:5px solid;
+  padding: 20px;
+  margin: 10px;
+}
+
+/*设置-参考点*/
+.box1 {
+  position: relative;
+}
+
+/**/
+.box2 {
+  position: absolute;
+  /*相对参考元素border内壁，偏移*/
+  top: 0;
+  left: 0;
+  margin: 0;
+  width: 100px;
+  height: 200px;
+  /*添加absolute，元素具有block特性，可以设置宽高*/
+}
+
+/*fixed*/
+.target {
+  position: fixed;
+  top: 0;
+  right: 10px;
+  background: #f00;
+}
+
+/*sticky*/
+.target2 {
+  position: sticky;
+  top: 30px;
+  bottom: 20px;
+  background: #0f0;
+}

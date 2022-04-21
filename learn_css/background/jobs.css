@@ -1,0 +1,58 @@
+body {
+  margin: 0px; /*清除默认样式*/
+  font: 12px/1.4 Arial; /*设置可继承属性 */
+  color: #333;
+}
+header {
+  height: 500px;/*用height撑起背景图片*/
+  background: url(/learn_css/background/imgs/jobs.jpeg) center no-repeat;
+  /*(url + position + repeat)*/
+  background-size: cover;
+  overflow: auto; /*阻止margin合并*/
+}
+header>h1 {
+  /* margin-top: 230px; */
+  color: #999;
+  font-size: 40px;
+  font-weight: bold;
+  text-align: right;/*内容位置*/
+}
+main {
+  max-width : 800px;/*容器最大width,width固定会影响bg- size的动态效果*/
+  margin: 0 auto;/*容器居中*/
+  padding: 20px;/*两边留白*/
+  background: url(https://i.loli.net/2019/11/08/xVjzkdbnTQe4arP.png) left 10% bottom 20% no-repeat,
+  url(https://i.loli.net/2019/11/08/utTREbx8CaIjymX.png) right 10% bottom 20% no-repeat
+  ;
+}
+
+p.vita{
+  
+  line-height: 1.2;/*行高*/
+  text-align: justify;/*字体对齐*/
+  font-weight: bold;
+  
+  color: rgba(0, 0, 0, 0.4);
+  background: url(/learn_css/background/imgs/jobs_color.webp) center no-repeat;
+  background-clip: text;
+  -webkit-background-clip: text;/*css3,裁剪文字以外的区域*/
+  background-size: cover;/*让bg填满整个容器*/
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+

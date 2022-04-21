@@ -1,0 +1,12 @@
+body {
+  color: #900;
+}
+/*导航条*/
+.navbar>li {
+  float: left;/*左浮动，按顺序排列*/
+  margin-left: 15px;
+}
+ul.navbar {
+  list-style: none;
+  float: right;/*容器靠右*/
+}

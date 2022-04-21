@@ -1,0 +1,61 @@
+h1 {
+  color: red;
+}
+.content{
+  width: 200px;
+  height: 200px;
+  border:1px solid black;
+  display: none;
+}
+.content:target{
+  display: block;
+}
+.tab {
+  border: 1px solid red;
+}
+
+
+
+.box::before {
+  content: '欢迎到'; 
+}
+.box::after {
+  content: '学前端'; 
+}
+.inlineBox {
+  width: 200px;
+  padding: 15px;
+  box-sizing: border-box;
+  border: 1px solid red;
+}
+.inlineBox span {
+  width: 80px;
+  /* height: 40px; */
+  background: gray;
+  padding: 10px ;
+  margin: 10px auto;
+  display: inline-block;
+  border:1px solid black;
+  box-sizing: border-box;
+
+}
+/* 导航条 */
+nav {
+  background-color: #ccc;
+  width: 800px;
+  margin:0 auto;
+  text-align: center;
+}
+nav a {
+  text-decoration: none;
+  color: #333;
+  padding: 10px;
+  display: inline-block;
+}
+nav > a:hover {
+  background: black;
+  color: white;
+}
+.artive {
+  background-color: #999;
+}
