@@ -5,7 +5,7 @@ body {
 }
 header {
   height: 500px;/*用height撑起背景图片*/
-  background: url(/learn_css/background/imgs/jobs.jpeg) center no-repeat;
+  background: url(./imgs/jobs.jpeg) center no-repeat;
   /*(url + position + repeat)*/
   background-size: cover;
   overflow: auto; /*阻止margin合并*/
@@ -33,7 +33,7 @@ p.vita{
   font-weight: bold;
   
   color: rgba(0, 0, 0, 0.4);
-  background: url(/learn_css/background/imgs/jobs_color.webp) center no-repeat;
+  background: url(./imgs/jobs_color.webp) center no-repeat;
   background-clip: text;
   -webkit-background-clip: text;/*css3,裁剪文字以外的区域*/
   background-size: cover;/*让bg填满整个容器*/
