@@ -30,7 +30,7 @@ body {
   transform: translate(-50%,-50%);
   background: #fff;
   width: 70%;
-  max-height: 500px;
+  max-height: 500px;/*内容太多会出现滚动条*/
   border-radius: 20px;
   border: 1px solid black;
 
@@ -45,6 +45,7 @@ body {
   float: right;
   text-decoration: none;
   font-size: 14px;
+  margin: 8px;
 
 }
 .content{

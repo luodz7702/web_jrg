@@ -1,0 +1,38 @@
+body {
+  margin: 0;
+  box-sizing: border-box;
+}
+* *::after *::before {
+  box-sizing: inherit;
+  margin: inherit;
+  padding: inherit;
+}
+.tip {
+  position: relative;
+  font-size: 40px;
+  cursor: pointer;
+}
+
+.toolstip {
+  /* z-index: 1; */
+  position: absolute;
+  top: calc(100% + 15p0);
+  left: 10px;
+  font-size: 16px;
+  color: #fff;
+  background: #000;
+  padding: 5px;
+  border-radius: 8px;
+  display: none;
+}
+.toolstip::before {
+  content: '';
+  position: absolute;
+  top: -16px;
+  left: 10px;
+  border: 8px solid transparent;
+  border-bottom-color: #000;
+}
+.tip:hover .toolstip {
+  display: block;
+}
