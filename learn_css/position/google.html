@@ -1,0 +1,92 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Google</title>
+  <link rel="stylesheet" href="//at.alicdn.com/t/font_2433961_fyzgh6pj49d.css">
+  <style>
+    /*设置IE盒模型*/
+    html {
+      box-sizing: border-box;
+    }
+    * *::before *::after {
+      box-sizing: inherit;
+    }
+
+    .logo {
+      background: url(../../imgs/google-logo2.png) center no-repeat;
+      background-size: contain;
+      width: 275px;
+      height: 100px;
+      margin: 200px auto 0 auto;
+    }
+    .search {
+      position: relative;
+      max-width: 582px;
+      height: 40px;
+      margin: 20px auto;
+      box-shadow: 0 0 0 1px #ccc;/*和模型阴影*/
+      border-radius: 20px;/*高度的一半*/
+    }
+    .search>.icon-sousuo{
+      position: absolute;
+      left: 16px;
+      top: 50%;
+      transform: translatey(-50%);/*Y轴方向移动自身高度的50%，负上正下*/
+      color: #999;
+      font-size: 20px;
+
+    }
+    .search > input {
+      height: 100%;
+      width: 100%;
+      font-size: 16px;
+      outline: none;
+      border: none;
+      border-radius: 20px;
+      padding: 0 40px;
+    }
+    .icon-mic {
+      position: absolute;
+      right:16px;
+      top: 50%;
+      transform: translateY(-50%);
+      color: #4284F4;
+      font-size: 18px;
+    }
+    .search:hover {
+      box-shadow: 0 0 4px 0px #ccc;
+    }
+    .buttons {
+      text-align: center;
+    }
+    .buttons>span {
+      display: inline-block;
+      background: #eee;
+      border-radius: 4px;
+      margin: 10px;
+      padding: 6px 12px;
+      color: #666;
+
+    }
+  </style>
+</head>
+<body>
+  <header>
+    <div class="logo"></div>
+  </header>
+  <main>
+    <div class="search">
+      <span class="iconfont icon-sousuo"></span>
+      <input type="search">
+      <span class="iconfont icon-mic"></span>
+    </div>
+    <div class="buttons">
+      <span>Google搜索</span>
+      <span>手气不错</span>
+    </div>
+  </main>
+</body>
+</html>
