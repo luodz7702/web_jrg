@@ -1,0 +1,61 @@
+body {
+    display: grid;
+    grid: auto auto auto / 1fr 600px 180px 1fr;
+    margin: 0px;
+}
+
+/* ----------header---------- */
+header {
+    grid-area: 1/2/2/4;   
+    /* background: red; */
+    display: flex;
+    align-items: center;
+}
+
+/* header1 */
+.header1{
+    display: flex;
+    align-items: center;
+}
+/* logo */
+.header1>img {
+    width: 100px;
+    margin:5px;
+}
+
+
+.header1>.nav>a {
+    color: #999;    
+    padding: auto;
+
+}
+
+/* header2 */
+.header2 {
+    display: flex;
+}
+/* search */
+input {
+    height: 20px;
+    margin-left: 100px;
+    margin-right: 50px;
+    border-radius: 5px;
+    border: 1px solid #ccc;
+}
+/* ----------nav---------- */
+nav {
+    grid-area: 2/2/3/3;
+    background: blue;
+}
+
+/* ----------main---------- */
+main {
+    grid-area: 3/2/4/3;
+    background: pink;
+}
+
+/* ----------aside---------- */
+aside {
+    grid-area: 3/3/4/4;
+    background: yellow;
+}
