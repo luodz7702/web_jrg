@@ -1,0 +1,25 @@
+/* 清楚默认样式 */
+html {
+    box-sizing: border-box;
+}
+*,
+*::after,
+*::before {
+    box-sizing: inherit;
+    /* 这样写可以让盒模型的孩子和它本身保持一致 */
+}
+body {
+    display: grid;
+    grid: auto auto / 1fr 800px 1fr;
+    font: 14px/1.5 Arial;
+    color: #333;
+}
+
+header {
+    grid-area: 1/2/2/3;
+}
+
+main {
+    grid-area: 2/2/3/3;
+    display: flex;
+}
