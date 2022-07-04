@@ -1,0 +1,63 @@
+@font-face {
+  font-family: "iconfont"; /* Project id 3473897 */
+  src: url('iconfont.woff2?t=1655700034903') format('woff2'),
+       url('iconfont.woff?t=1655700034903') format('woff'),
+       url('iconfont.ttf?t=1655700034903') format('truetype');
+}
+
+.iconfont {
+  font-family: "iconfont" !important;
+  font-size: 16px;
+  font-style: normal;
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+}
+
+.icon-item-manage:before {
+  content: "\e613";
+}
+
+.icon-work:before {
+  content: "\e6fc";
+}
+
+.icon-education:before {
+  content: "\e62e";
+}
+
+.icon-skill:before {
+  content: "\e6cf";
+}
+
+.icon-skill1:before {
+  content: "\e884";
+}
+
+.icon-item-list:before {
+  content: "\e68d";
+}
+
+.icon-work1:before {
+  content: "\e683";
+}
+
+.icon-education2:before {
+  content: "\e609";
+}
+
+.icon-telephone:before {
+  content: "\e64e";
+}
+
+.icon-email:before {
+  content: "\e69f";
+}
+
+.icon-user:before {
+  content: "\e68e";
+}
+
+.icon-wechat:before {
+  content: "\e602";
+}
+

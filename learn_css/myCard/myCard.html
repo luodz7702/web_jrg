@@ -5,17 +5,128 @@
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>在线简历</title>
+    <link rel="stylesheet" href="font_2022card/iconfont.css">
     <link rel="stylesheet" href="myCard.css">
 </head>
 <body>
-  <header>姓名
-    <img class="avatar" src="" alt="头像_photo">
+  <header>
+    <img class="avatar" src="/imgs/avatar.JPG" alt="头像_photo">
     <h1>罗德治</h1>
     <p>应聘前端工程师</p>
   </header> 
   <main>
-      <section>第一部分</section>
-      <section>第二部分</section>
+    <div class="column-1">
+      <section class="basic-info">
+        <span class="iconfont icon-user"></span>
+        <h2>基本信息</h2>
+        <ul class="detail">
+          <li><span class="iconfont icon-telephone"></span>18610047702</li>
+          <li><span class="iconfont icon-wechat"></span>Edward-Will</li>
+          <li><span class="iconfont icon-email"></span>ldz7702@outlook.com</li>
+          <li><span class="iconfont icon-education2"></span>大专</li>
+        </ul>
+      </section>
+      <section class="skills">
+        <span class="iconfont icon-skill1"></span>
+        <h2>掌握技能</h2>
+        <ul class="detail">
+          <li>掌握HTML5/CSS3,熟悉传统布局、Flex布局、Grid布局、移动端适配等</li>
+          <li>熟悉Vue技术栈如Vue-Router、Vuex、Vue-CLI及相关流行库的使用,理解其重要概念</li>
+          <li>熟悉React / Redux技术栈等使用,能够使用React进行基本开发</li>
+          <li>熟悉前后端交互技术JSONP、AJAX,了解fetch</li>
+          <li>熟悉Node.js开发,能搭建基础后台开发</li>
+        </ul>
+      </section>
+       <section class="map">
+        <span class="iconfont icon-skill"></span>
+        <h2>技能图谱</h2>
+        <dl class="detail">
+          <dt>JavaScript</dt>
+          <dd><span class="bar" style="width: 60%;"  ></span></dd>
+          <dt>Css</dt>
+          <dd><span class="bar" style="width: 40%;"  ></span></dd>
+          <dt>Node</dt>
+          <dd><span class="bar" style="width: 25%;"  ></span></dd>
+          <dt>Vue</dt>
+          <dd><span class="bar" style="width: 80%;"  ></span></dd>
+          <dt>React</dt>
+          <dd><span class="bar" style="width: 90%;"  ></span></dd>
+        </dl>
+      </section>
+    </div>
+    <div class="column-2">
+      <section class="work layout-1">
+        <span class="iconfont icon-work1"></span>
+        <h2>工作经历</h2>
+        <ul class="detail">
+          <li>
+            <span class="worktime">07/2014~06/2016</span>
+            <h3>北京京东世纪贸易有限公司</h3>
+            <span class="position">技术支持</span>
+            <ul>
+              <li>工作内容: 针对京东平台购买3C类产品售后提供技术支持服务</li>
+            </ul>
+          </li>
+          <li>
+            <span class="worktime">08/2018~05/2020</span>
+            <h3>北京零距离信息技术有限公司</h3>
+            <span class="position">商务客服</span>
+            <ul>
+              <li>客户对接,根据客户需求制作和修改H5页面,熟练掌握html、css、Javascript。</li>
+              <li>消费日报,报表大客户每日广告投放数据处理、数据分析、广告框架消费及进度统计等,熟练使用Excel透析表和各类函数。</li>
+              <li>数据分析,负责百度app、巨量引擎广告投放,数据分析等工作。</li>
+              <li>账户权限申请,对账单,发票,放户,财务对接等工作。</li>
+            </ul>
+          </li>
+        </ul>
+      </section>
+      <section class="edu layout-1">
+        <span class="iconfont icon-education"></span>
+        <h2>教育经历</h2>
+        <ul class="detail">
+          <li>
+            <span class="timeline">09/2008~07/2011</span>
+            <h3>北京交通职业技术学院</h3>
+            <span class="profession">计算机专业</span>
+            <ul>
+              <li>多次获得校一等奖学金,成绩排名专业前10%.</li>
+            </ul>
+          </li>
+           <li>
+            <span class="timeline">09/2007~07/2010</span>
+            <h3>成都指挥学院</h3>
+            <span class="profession">计算机专业</span>
+            <ul>
+              <li>个人三等功</li>
+              <li>优秀士兵</li>
+            </ul>
+          </li>
+         </ul>
+      </section>
+      <section class="projects layout-1">
+        <span class="iconfont icon-item-manage"></span>
+        <h2>项目经历</h2>
+        <ul class="detail">
+          <li>
+            <span class="worktime">07/2021~07/2021</span>
+            <h3>个人简历Web端项目</h3>
+            <!-- <span class="position">技术支持</span> -->
+           <ul>
+            <li>项目介绍: 该项目通过grid布局制作个人简历</li>
+           </ul> 
+          </li>
+          <li>
+            <span class="worktime">05/2022~05/2022</span>
+            <h3>旺财记事本Web端项目</h3>
+            <!-- <span class="position">商务客服</span> -->
+          <ul>
+            <li>项目内容: 该项目通过。。。。。</li>
+          </ul> 
+          </li>
+        </ul>
+      </section>
+    </div>
+    
   </main>
 </body>
 </html>
