@@ -1,0 +1,93 @@
+{
+  "id": "3473897",
+  "name": "Card-2022",
+  "font_family": "iconfont",
+  "css_prefix_text": "icon-",
+  "description": "",
+  "glyphs": [
+    {
+      "icon_id": "1302620",
+      "name": "item-manage",
+      "font_class": "item-manage",
+      "unicode": "e613",
+      "unicode_decimal": 58899
+    },
+    {
+      "icon_id": "1410620",
+      "name": "work",
+      "font_class": "work",
+      "unicode": "e6fc",
+      "unicode_decimal": 59132
+    },
+    {
+      "icon_id": "5924783",
+      "name": "education",
+      "font_class": "education",
+      "unicode": "e62e",
+      "unicode_decimal": 58926
+    },
+    {
+      "icon_id": "7684930",
+      "name": "skill",
+      "font_class": "skill",
+      "unicode": "e6cf",
+      "unicode_decimal": 59087
+    },
+    {
+      "icon_id": "12046879",
+      "name": "skill",
+      "font_class": "skill1",
+      "unicode": "e884",
+      "unicode_decimal": 59524
+    },
+    {
+      "icon_id": "14441153",
+      "name": "item-list",
+      "font_class": "item-list",
+      "unicode": "e68d",
+      "unicode_decimal": 59021
+    },
+    {
+      "icon_id": "15838549",
+      "name": "work",
+      "font_class": "work1",
+      "unicode": "e683",
+      "unicode_decimal": 59011
+    },
+    {
+      "icon_id": "24816506",
+      "name": "education",
+      "font_class": "education2",
+      "unicode": "e609",
+      "unicode_decimal": 58889
+    },
+    {
+      "icon_id": "109791",
+      "name": "telephone",
+      "font_class": "telephone",
+      "unicode": "e64e",
+      "unicode_decimal": 58958
+    },
+    {
+      "icon_id": "122696",
+      "name": "email",
+      "font_class": "email",
+      "unicode": "e69f",
+      "unicode_decimal": 59039
+    },
+    {
+      "icon_id": "248969",
+      "name": "user",
+      "font_class": "user",
+      "unicode": "e68e",
+      "unicode_decimal": 59022
+    },
+    {
+      "icon_id": "5643507",
+      "name": "wechat",
+      "font_class": "wechat",
+      "unicode": "e602",
+      "unicode_decimal": 58882
+    }
+  ]
+}
