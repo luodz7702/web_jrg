@@ -182,7 +182,7 @@ main section > .detail {
 }
 
 /* edu & work &projects */
-.layout-1 .detai>li :first-child {
+.layout-1 .detail>li :first-child {
     grid-area: 1/1/2/2;
 }
 .layout-1 .detail .position {
